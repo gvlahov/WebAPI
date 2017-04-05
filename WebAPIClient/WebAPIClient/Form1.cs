@@ -18,6 +18,8 @@ namespace WebAPIClient
         {
             InitializeComponent();
 
+            textBoxURL.Text = "http://dsol.cloudapp.net:81/api/orders";
+
             StringBuilder stringBuilder = new StringBuilder();
             stringBuilder.AppendLine("{");
             stringBuilder.AppendLine("  \"apiToken\": \"2C8BF34D-7E97-BB65-2C3C-179BE9D6D4C4\",");

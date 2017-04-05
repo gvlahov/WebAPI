@@ -85,7 +85,6 @@
             this.textBoxURL.Name = "textBoxURL";
             this.textBoxURL.Size = new System.Drawing.Size(659, 20);
             this.textBoxURL.TabIndex = 2;
-            this.textBoxURL.Text = "http://localhost:58255/api/orders";
             // 
             // buttonCall
             // 
